@@ -22,7 +22,7 @@ function App() {
   const toggleMode = () => {
     if (mode === 'light') {
         setMode('dark');
-        // document.body.style.backgroundColor = 'grey';
+        document.body.style.backgroundColor = '#212529';
         showAlert("Dark mode has been enable", "success");
         document.title = "TextUtils - Dark Mode";
         // setInterval(()=>{
@@ -34,7 +34,7 @@ function App() {
     }
     else {
         setMode('light');
-        // document.body.style.backgroundColor = 'white';
+        document.body.style.backgroundColor = 'white';
         showAlert("Light mode has been enable", "success")
         document.title='TextUtils - LightMode';
     }
